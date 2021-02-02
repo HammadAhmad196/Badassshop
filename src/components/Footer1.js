@@ -25,34 +25,34 @@ class Footer extends React.Component {
                                         <div className="flex py-8 md:py-12 xl:py-20">
                                             <div className=" md:mt-0 md:h-full md:w-full flex flex-col md:flex-row justify-between" style={{ textAlign: "left" }}>
                                                 <div className="flex flex-col md:px-16 lg:px-24 xl:px-32">
-                                                    <span className="font-bold text-Oswald uppercase mb-2">SUPPORT</span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald text-xs">Payment methods</a></span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald text-xs" >Delivery methods</a></span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald text-xs" >Postage and shipping</a></span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald text-xs" >Returns and complaints</a></span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald text-xs" >Wholesale</a></span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald text-xs" >Privacy policy</a></span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald text-xs" >Cookie policy</a></span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald text-xs" >User registration</a></span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald text-xs" >Terms of use</a></span>
+                                                    <span className="xl:text-xl font-bold text-Oswald uppercase mb-2">SUPPORT</span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs">Payment methods</a></span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs" >Delivery methods</a></span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs" >Postage and shipping</a></span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs" >Returns and complaints</a></span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs" >Wholesale</a></span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs" >Privacy policy</a></span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs" >Cookie policy</a></span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs" >User registration</a></span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs" >Terms of use</a></span>
                                                 </div>
                                                 <div className="flex flex-col md:px-20 lg:px-32 xl:px-40">
-                                                    <span className="font-Oswald font-bold uppercase mt-4 md:mt-0 mb-2 text-xs">NEWSLETTER</span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald font-extrabold">You want extra</a></span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald  font-extrabold">discounts?</a></span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald text-xs">Read more about the processing of your</a></span>
-                                                    <span className=""><a href="#" className="text-Oswald font-Oswald text-xs"> personal data on the PRIVACY POLICY page.</a></span>
+                                                    <span className="xl:text-xl font-Oswald font-bold uppercase mt-4 md:mt-0 mb-2 text-xs">NEWSLETTER</span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs font-extrabold">You want extra</a></span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs  font-extrabold">discounts?</a></span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald">Read more about the processing of your</a></span>
+                                                    <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald"> personal data on the PRIVACY POLICY page.</a></span>
                                                     <img className="my-4" src={Input} alt="img" />
                                                     <img className="my-4" src={Promo} alt="img" />
                                                 </div>
                                                 <div className="flex flex-col md:px-24 lg:px-40 xl:px-48">
-                                                    <span className=""><a href="#" className="text-xs text-Oswald font-Oswald ">About us</a></span>
-                                                    <span className=""><a href="#" className="text-xs text-Oswald font-Oswald ">Blog</a></span>
-                                                    <span className=""><a href="#" className="text-xs text-Oswald font-Oswald ">general conditions</a></span>
-                                                    <span className=""><a href="#" className="text-xs text-Oswald font-Oswald ">BADASSshop Club</a></span>
-                                                    <span className=""><a href="#" className="text-xs text-Oswald font-Oswald ">Contact</a></span>
-                                                    <span className=""><a href="#" className="text-xs text-Oswald font-Oswald ">Imprint</a></span>
-                                                    <span className=""><a href="#" className="text-xs text-Oswald font-Oswald ">Complaints and objections</a></span>
+                                                    <span className=""><a href="#" className="text-xs xl:text-lg text-Oswald font-Oswald ">About us</a></span>
+                                                    <span className=""><a href="#" className="text-xs xl:text-lg text-Oswald font-Oswald ">Blog</a></span>
+                                                    <span className=""><a href="#" className="text-xs xl:text-lg text-Oswald font-Oswald ">general conditions</a></span>
+                                                    <span className=""><a href="#" className="text-xs xl:text-lg text-Oswald font-Oswald  ">BADASSshop Club</a></span>
+                                                    <span className=""><a href="#" className="text-xs xl:text-lg text-Oswald font-Oswald  ">Contact</a></span>
+                                                    <span className=""><a href="#" className="text-xs xl:text-lg text-Oswald font-Oswald ">Imprint</a></span>
+                                                    <span className=""><a href="#" className="text-xs xl:text-lg text-Oswald font-Oswald ">Complaints and objections</a></span>
                                                 </div>
                                             </div>
                                         </div>
