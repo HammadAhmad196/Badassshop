@@ -19,8 +19,8 @@ function App() {
         <Offers />
         <Chairs /> 
         <Blogs />   
-         <Footer className="bg-gray-200" />
-        <Footer1 className="bg-gray-200"  />  
+         <Footer  />
+        <Footer1   />  
     </div>
   );
 }

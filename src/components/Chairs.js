@@ -19,7 +19,7 @@ class Chairs extends React.Component {
                     <img src={auction} alt="img" />
                     <h1 className="text-xl text-center font-extrabold font-Oswald absolute">CHAIR HALS</h1>
                 </div>
-                <div className="xl:py-24 xl:ml-32 lg:-mt-56 md:-mt-64 md:flex md:flex-row">
+                <div className="xl:py-24 xl:ml-20 lg:-mt-56 md:-mt-64 md:flex md:flex-row">
                     <div className="lg:-ml-12 xl:-ml-1 md:-ml-40 flex flex-col md:flex-row justify-center items-center">
                         <img src={white} alt="img" />
                         <img src={chair3} className=" absolute" alt="img" />

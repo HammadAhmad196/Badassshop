@@ -42,7 +42,7 @@ class Footer extends React.Component {
                                                     <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald text-xs  font-extrabold">discounts?</a></span>
                                                     <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald">Read more about the processing of your</a></span>
                                                     <span className=""><a href="#" className="xl:text-lg text-Oswald font-Oswald"> personal data on the PRIVACY POLICY page.</a></span>
-                                                    <img className="my-4" src={Input} alt="img" />
+                                                    <img className="my-4 xl:w-full" src={Input} alt="img" />
                                                     <img className="my-4" src={Promo} alt="img" />
                                                 </div>
                                                 <div className="flex flex-col md:px-24 lg:px-40 xl:px-48">
