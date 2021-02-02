@@ -50,7 +50,7 @@ class Home extends React.Component {
                             </a>
                             </li>
                         </ul>
-                        <div className="flex-row py-2 m-4">
+                        <div className="mr-20 md:mr-0 md:mt-2 -mt-2 flex-row py-2 m-4">
                             <h6 className="font-Oswald float-right text-base font-extrabold ml-8">0.00 KN</h6>
                             <h6 className="font-Oswald float-right text-base font-extrabold">Wish</h6>
                         </div>
