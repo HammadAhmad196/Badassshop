@@ -8,7 +8,7 @@ import laptop1 from '../assets/laptop1.png';
 class Offers extends React.Component {
     render() {
         return (
-            <div className="bg-gray-200 -mt-64 md:mt-32 xl:mt-48">
+            <div className=" bg-gray-200 -mt-64 md:mt-32 xl:px-8 xl:mt-48">
                 <div className="md:py-12 xl:py-24 xl:px-56 px-16 md:px-8 lg:px-16 bg-gray-200 w-full flex flex-col md:justify-between md:flex-row">
                     <div className="flex justify-start w-3/4">
                         <h1 className="-mt-40 md:-mt-1 xl:text-2xl font-extrabold font-Oswald">Specials Offers</h1>
@@ -19,7 +19,7 @@ class Offers extends React.Component {
                         <h1>Child's Corner</h1>
                     </div>
                 </div>
-                <div className="bg-gray-200 md:py-0 xl:-mt-8">
+                <div className="xl:ml-40 bg-gray-200 md:py-0 xl:-mt-8">
                     <div class="container xl:px-0 px-10 lg:px-0 mx-auto">
                         <div class="flex flex-col md:flex-row">
                             <div class="lg:ml-8 lg:w-1/5 md:w-1/2 mt-2" >

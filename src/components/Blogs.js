@@ -9,11 +9,11 @@ import img6 from '../assets/img6.png';
 class Blogs extends React.Component {
     render() {
         return (
-            <div className="-mt-12 md:-mt-1 flex flex-col md:flex-row md:px-10 xl:px-16  lg:px-16 px-4 xl:py-16 md:py-32">
+            <div className="flex flex-col md:flex-row md:px-10 xl:px-12 lg:px-16 px-4 md:py-32">
                 <div className="">
                     {/* <p className="py-4 ml-12 text-left font-extrabold font-Oswald">Blogs</p> */}
                 </div>
-                <div class="w-full md:w-3/5 xl:w-4/12 flex md:flex-row md:py-12 py-16">
+                <div class="w-full md:w-3/5 xl:w-5/12 flex md:flex-row md:py-12 py-16">
                     <div className="flex" style={{ border: "1px solid" }}>
                         <div className="mt-8">
                             <img className="xl:mr-16 md:mt-32" src={img4} alt="img4" />
@@ -28,10 +28,10 @@ class Blogs extends React.Component {
                     </div>
                 </div>
                 <div className="flex flex-col">
-                    <img className="md:hidden ml-4 md:ml-8 md:-mt-16 -mt-24 w-2/12 md:w-16 h-12" src={img7} alt="img7" />
+                    <img className="md:hidden ml-4 md:ml-8 md:-mt-16 -mt-16 w-2/12 md:w-16 h-12" src={img7} alt="img7" />
                 </div>
                 <div className="md:py-4 flex flex-col xl:-ml-4 md:-ml-4">
-                    <div class=" flex md:px-8 md:py-8">
+                    <div class="md:w-full flex md:px-8 md:py-8">
                         <div className="flex" style={{ border: "1px solid", borderLeft: "0px solid" }}>
                             <div className="mt-8">
                                 <img className="xl:mr-16" src={img5} alt="img5" />
@@ -46,7 +46,7 @@ class Blogs extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div class="md:w-full mt-8 w-full md:-mt-8 flex md:px-8 md:py-8">
+                    <div class="md:w-full mt-8 w-full md:-mt-8 xl:-mt-4 flex md:px-8 md:py-8">
                         <div className="flex" style={{ border: "1px solid", borderLeft: "0px" }}>
                             <div className="mt-8">
                                 <img className="xl:mr-16" src={img6} alt="img5" />
