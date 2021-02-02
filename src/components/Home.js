@@ -13,7 +13,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className="bg-gray-200 h-full">
-                <header className="md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4">
+                <header className="md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg ">
                     <div className="flex justify-center items-center mb-4 md:mb-0">
                         <button class="font-Oswald bg-black font-bold text-white text-center px-6 py-2 transition mr-6">
                             PRODUCT
@@ -29,8 +29,8 @@ class Home extends React.Component {
                     <form className="mb-4 w-full md:mb-0 md:w-1/4">
                         <p className="font-Oswald xl:text-4xl font-extrabold text-2xl">BADASS</p>
                         <p className="font-Oswald xl:text-xl font-extrabold text-sm">S H O P</p>
-                        <label className="font-Oswald hidden" for="search-form">Search</label>
-                        <input className="border-2 rounded-lg shadow-inner w-full" placeholder="Search" type="text" />
+                        {/* <label className="font-Oswald font-extrabold" placeholder="Search " ></label> */}
+                        <input className="border-2 font-Oswald md:w-full mt-2 md:-ml-6 text-center  rounded-full w-full placeholder-black py-2 font-extrabold" placeholder="Search" type="text" />
                     </form>
                     <nav>
                         <ul className="list-reset md:flex md:items-center">
@@ -57,16 +57,16 @@ class Home extends React.Component {
                     </nav>
                 </header>
                 <div className="h-screen" style={{ backgroundImage: `url(${bg1})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}>
-                <section class="text-gray-600 body-font px-8">
+                <section class="px-8">
                     <div className="h-screen" style={{ backgroundImage: `url(${bg})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}>
-                        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-                            <img class="lg:w-full md:w-3/6 w-full mb-10 object-cover object-center rounded" alt="hero" src={car} atl="car" />
+                        <div class="container mx-auto flex items-center justify-center flex-col">
+                            <img class="lg:w-full md:w-3/6 w-full object-cover object-center rounded" alt="hero" src={car} atl="car" />
                             <div class="text-center lg:w-2/3 w-full">
-                                <p className="font-Oswald title-font text-sm mb-4 font-extrabold text-black">LICENSED CAR</p>
-                                <h1 class="font-Oswald title-font sm:text-4xl text-2xl mb-4 font-extrabold text-black">Ultra-cool Motherfucker</h1>
+                                <p className="font-Oswald title-font text-sm mb-2 font-extrabold text-black">LICENSED CAR</p>
+                                <h1 class="font-Oswald title-font sm:text-4xl text-2xl mb-2 font-extrabold text-black">Ultra-cool Motherfucker</h1>
                                 <div className="md:px-32">
                                     <img src={nav}  alt="img"/>
-                                    <p className="text-black font-Oswald font-extrabold text-xs -mt-4 md:-mt-8">Battery-powered Ride-on Car</p>
+                                    <p className="text-black font-Oswald font-extrabold text-xs">Battery-powered Ride-on Car</p>
                                 </div>
                                 <div>
                                     <nav className="mt-2 flex flex-row justify-center items-center">
@@ -97,8 +97,8 @@ class Home extends React.Component {
                                         <img className="xl:-mt-4 float-right w-12 md:w-24" src={Pagination} alt="img" />
                                         <img className="mt-6 float-left w-24 md:w-48" src={Social} alt="img" />
                                     </div>
-                                    <div className="mt-32 md:mt-32">
-                                    <center><p className="text-center font-Oswald text-black font-extrabold text-xs">PAYMENT BY COD, INTERNET BANKING OR CARD</p></center>
+                                    <div className="">
+                                    <center><p className="md:mr-8 xl:ml-32 lg:ml-32 md:ml-32 md:mt-24 mt-20 text-center font-Oswald text-black font-extrabold text-xs">PAYMENT BY COD, INTERNET BANKING OR CARD</p></center>
                                     </div> 
                                 </div>
                             </div>

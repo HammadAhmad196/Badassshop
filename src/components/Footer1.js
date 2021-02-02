@@ -9,9 +9,9 @@ import bg from '../assets/bg.png';
 class Footer extends React.Component {
     render() {
         return (
-            <div className="h-screen" style={{ backgroundImage: `url(${Rectangle43})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
+            <div className="" style={{ backgroundImage: `url(${Rectangle43})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
                 {/* <div className="h-screen" style={{ backgroundImage: `url(${bg})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}> */}
-                    <div className=" h-screen" style={{ backgroundImage: `url(${img7})`, backgroundPosition: "left", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}>
+                    <div className="" style={{ backgroundImage: `url(${img7})`, backgroundPosition: "left", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}>
                     {/* <img className=""  src={bg} alt="img" /> */}
                         <div className="h-screen md:-mt-8 px-8 ">
                             <div className="" style={{ border: "1px solid", borderLeft: "0px", borderBottom: "0px", borderTop: "0px" }}>

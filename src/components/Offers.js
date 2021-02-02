@@ -9,7 +9,7 @@ class Offers extends React.Component {
     render() {
         return (
             <div className="bg-gray-200 -mt-64 md:mt-32 xl:mt-48">
-                <div className="md:py-12 xl:py-24 xl:px-40 px-16 md:px-8 lg:px-16 bg-gray-200 w-full flex flex-col md:justify-between md:flex-row">
+                <div className="md:py-12 xl:py-24 xl:px-56 px-16 md:px-8 lg:px-16 bg-gray-200 w-full flex flex-col md:justify-between md:flex-row">
                     <div className="flex justify-start w-3/4">
                         <h1 className="-mt-40 md:-mt-1 xl:text-2xl font-extrabold font-Oswald">Specials Offers</h1>
                     </div>
@@ -20,10 +20,10 @@ class Offers extends React.Component {
                     </div>
                 </div>
                 <div className="bg-gray-200 md:py-0 xl:-mt-8">
-                    <div class="container xl:px-0 px-10 lg:px-0 xl:mx-32 mx-auto">
+                    <div class="container xl:px-0 px-10 lg:px-0 mx-auto">
                         <div class="flex flex-col md:flex-row">
                             <div class="lg:ml-8 lg:w-1/5 md:w-1/2 mt-2" >
-                                <div class="block relative h-48 rounded overflow-hidden border-l-2 border-t-2 border-r-2 border-gray-300">
+                                <div class="block relative h-48 xl:w-full rounded overflow-hidden border-l-2 border-t-2 border-r-2 border-gray-300">
                                     <img alt="img" class="object-cover object-center" src={img1} alt="img" />
                                 </div>
                                 <div class="mt-4" style={{border: "1px solid gray", borderTop: "0"}}>
