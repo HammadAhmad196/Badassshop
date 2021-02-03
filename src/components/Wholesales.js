@@ -8,7 +8,7 @@ import words from '../assets/words.png';
 class Wholesales extends React.Component {
     render() {
         return (
-            <div className="bg-gray-200 py-64 md:py-0 xl:-mt-40 mt-4 md:mt-8 lg:mt-4">
+            <div className="bg-gray-200 py-64 md:py-0 xl:-mt-32 mt-4 md:mt-32 lg:mt-4">
                 <div class="py-64 mt-64 md:py-0 md:mt-0 flex flex-col md:flex-row px-8 md:px-12 xl:px-24 w-full">
                     <div className="md:w-7/12 md:h-64 xl:h-screen flex" style={{ border: "1px solid", borderLeft: "0px", textAlign: "left" }}>
                         <div className="-ml-8 md:-ml-12 xl:-ml-20 mt-16 lg:mt-20 md:mt-24 flex justify-start items-start">
@@ -48,7 +48,6 @@ class Wholesales extends React.Component {
                         </div>
                     </div>
                 </div>
-
             </div>
         )
     }

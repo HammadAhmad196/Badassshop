@@ -6,7 +6,7 @@ import x1 from '../assets/x1.png';
 class Features extends React.Component {
     render() {
         return (
-            <div className="md:py-0 py:0 xl:py-48 xl:mt-0 lg:py-24">
+            <div className="md:py-0 py:0 xl:py-64 xl:mt-0 lg:py-24">
             {/* <div className="bg-gray-200 md:py-20 lg:py-56 h-screen" style={{ backgroundImage: `url(${x1})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}> */}
                 <p className="lg:py-48 xl:py-32 text-xl  xl:mt-0  uppercase font-extrabold font-Oswald text-black">The best from the offer</p>
                 <div className="lg:-mt-64 xl:-mt-56 md:-mt-12 bg-gray-200 h-screen" style={{ backgroundImage: `url(${x1})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "contain" }}>
